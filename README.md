@@ -35,7 +35,7 @@ pip install -e ".[test]"  # Install with test dependencies
 1. Prepare your route data as JSON ([example format](#input-format))
 2. Render maps:
 ```python
-from SimpleOSMRenderer import main
+from SimpleOSMRenderer.simpleosmrenderer.renderer import main  
 
 main(input_file="your_data.json", output_dir="maps")
 ```
